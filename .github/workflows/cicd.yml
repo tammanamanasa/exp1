@@ -42,7 +42,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+<<<<<<< HEAD
           git config --global user.name "balajee-rm"
           git config --global user.email "balajee.rm@gmail.com"
           npm install -g gh-pages
           gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/balajee-rm/S109.git
+=======
+          git config --global user.name "tammanamanasa"
+          git config --global user.email "tammanamanasa2212@gmail.com"
+          npm install -g gh-pages
+          gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/tammanamanasa/exp1.git
+>>>>>>> a533794 (Initial commit from exp1 folder)
